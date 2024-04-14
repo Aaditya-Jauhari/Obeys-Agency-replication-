@@ -11,6 +11,11 @@
     font-family: 'Plain Light';
     background-color: #0b0b0b;
 }
+
+body {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
 #crs{
     background-color: rgb(49, 49, 49);
     width: 2vw;
@@ -28,11 +33,12 @@
     width: 100%;
     position: fixed;
     z-index: 999;
-    background-color: #0b0b0b;
+    /* background-color: #0b0b0b; */
     padding: 25vh 20vw;
     color: white;
     text-transform: uppercase;
 }
+
 .line h1 {
     font-size: 6.5vw;
     font-weight: 500;
@@ -122,7 +128,9 @@
 
 .main {
     position: relative;
-    background-color: #151515;
+    /* background-color: #151515; */
+    /* background-color: #0b0b0b; */
+    
 }
 
 #page1 {
@@ -253,4 +261,89 @@
     min-height: 100vh;
     width: 100%;
     background-color: rgb(25, 25, 25);
+}
+
+#page4 {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding-top: 5vh;
+}
+
+#page4-content {
+    width: 72vw;
+    margin-left: 28vw;
+    color: white;
+    position: relative;
+}
+
+#page4-content h1 {
+    font-size: 6vw;
+    text-transform: uppercase;
+}
+
+#page4-content .underline{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin: 5vw 0;
+}
+
+#page4-content>p {
+    font-size: 2.05vw;
+    width: 50%;
+    /* color: white; */
+    margin-bottom: 3vw;
+}
+/* #page4-flex >p {
+    font-size: 2.05vw;
+    width: 50%;
+    color: white;
+    margin-bottom: 3vw;
+} */
+
+#page4-flex {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+#page4-flex img {
+    width: 48%;
+}
+#page4-flex p {
+    font-size: 0.9vw;
+    width: 18%;
+    margin-left: 1vw;
+}
+
+#page4-bluediv {
+    background-color: #3F7DF4;
+    width: 30vw;
+    padding: 4vw 2vw;
+    position: relative;
+    margin-top: -35vh;
+    margin-left: 24vw;
+}
+
+.bluediv-elem {
+    display: flex;
+    align-items: center;
+    /* background-color: #3F7DF4; */
+    /* mix-blend-mode:normal; */
+    align-items: flex-start;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+    padding: 1.5vw 0;
+    border-bottom: 2px solid #fff;
+}
+
+.bluediv-elem h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.bluediv-elem  p {
+    width: 40%;
+    font-size: 0.8vw;
 }
