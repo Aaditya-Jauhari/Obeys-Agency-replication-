@@ -373,7 +373,7 @@ body {
     color: transparent;
     margin-right: 16px;
     animation-name: anime;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     transform: translateX(calc(-100%-20px));
@@ -414,7 +414,61 @@ body {
     animation-direction: reverse;
 }
 
-@keyframes anime2 {
-    
+
+.elem span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+}
+.elem2 span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
 }
 
+#footer{
+    height: 80vh;
+    /* width: 100%; */
+    /* background-color: red; */
+    position: relative;
+    color: white;
+    padding-left: 26vw;
+}
+
+#footer h1 {
+    font-size: 7.2vw;
+    width: 60vw;
+    text-transform: uppercase;
+    /* background-color: blue; */
+}
+
+
+.underline {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin: 2vw 0;
+}
+
+#footer-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 15vw;
+    padding-top: 4vw;
+    margin-bottom: 3vw;
+}
+
+#footer-div h6 {
+    font-size: 0.9vw;
+    margin-bottom: 1.5vw;
+}
+
+.box {
+    width: 20%;
+}
+
+#footer-div h5 {
+    font-size: 1.2vw;
+    margin: 0.2vh 0;
+}
